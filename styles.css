@@ -1,8 +1,16 @@
+.logo-container {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #logo {
     font-size: 180px;
     color:darkorange;
     text-align: center;
     font-family: 'Times New Roman', serif;
+    line-height: 1;
 }
 
 #header1 {
@@ -17,18 +25,3 @@ p {
     font-family: 'Times New Roman', serif;
 }
 
-.logo {
-    animation: morph 2s infinite alternate;
-}
-
-@keyframes morph {
-
-    from {
-        font-variation-settings: "wght" 100;
-    }
-
-    to {
-        font-variation-settings: "wght" 900;
-    }
-
-}

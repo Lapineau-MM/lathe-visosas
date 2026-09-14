@@ -3,7 +3,7 @@ const fonts = [
     "Georgia",
     "Courier New",
     "Times New Roman",
-    "Helvetica",
+    "Apple Chancery, cursive",
     
 ];
 
