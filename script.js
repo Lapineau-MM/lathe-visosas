@@ -3,7 +3,8 @@ const fonts = [
     "Georgia",
     "Courier New",
     "Times New Roman",
-    "Helvetica"
+    "Helvetica",
+    
 ];
 
 let currentFont = 0;
@@ -19,4 +20,4 @@ setInterval(() => {
     document.querySelector("#logo").style.fontFamily =
         fonts[currentFont];
 
-}, 300);
+}, 100);
