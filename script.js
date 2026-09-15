@@ -1,12 +1,11 @@
 const fonts = [
-"Arial",
+    "Rockwell",
     "Georgia",
-    "Courier New",
     "Times New Roman",
     "Apple Chancery, cursive",
-    "Times New Roman",
-    "Courier New",
-    "Georgia",
+    "Copperplate, fantasy",
+    "Brush Script MT, cursive",
+    "Futura, sans-serif",
     
 ];
 
@@ -36,7 +35,7 @@ function changeFont() {
         return;
     }
 
-    if (intervalDelay <= 100) {
+    if (intervalDelay <= 90) {
         intervalDirection = 0;
 
         if (!lowerDelayHoldActive) {
@@ -44,7 +43,7 @@ function changeFont() {
             setTimeout(() => {
                 intervalDirection = 1;
                 lowerDelayHoldActive = false;
-            }, 7000);
+            }, 10000);
         }
 
         setTimeout(changeFont, 100);
