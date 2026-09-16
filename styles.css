@@ -31,21 +31,29 @@ nav {
     justify-content: center;
     gap: 40px;
     margin-bottom: 20px;
-    color:blueviolet;
-    font-size: 30px;
+    
 }
 
+nav a {
+    color:rgb(179, 98, 255);
+    font-size: 30px;
+    font-family: 'Futura', sans-serif;
+}
 
+nav a:hover {
+    color: rgb(255, 98, 98);
+    text-decoration: underline;
+}
 #header1 {
     font-size: 50px;
     text-align: center;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Futura', sans-serif;
 }
 
 p {
     font-size: 20px;
     text-align: center;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Futura', sans-serif;
 }
 
 figcaption {
