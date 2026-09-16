@@ -31,7 +31,7 @@ function changeFont() {
         setTimeout(() => {
             intervalDirection = -1;
             setTimeout(changeFont, intervalDelay);
-        }, 5000);
+        }, 3000);
         return;
     }
 

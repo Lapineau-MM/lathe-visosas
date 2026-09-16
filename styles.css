@@ -19,13 +19,42 @@
     
 }
 
-#logo-image {
+#logo-image-home {
     display: block;
     margin: 0 auto;
     max-width: 15%;
     height: auto;
     margin-bottom: 20px;
+
 }
+
+#logo-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 9%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.text-logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}   
+
+.text-logo-text .text {
+    color:darkorange;
+    font-size: 20px;
+    font-family: 'Futura', sans-serif;
+    align-items: center;
+    
+}
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -80,7 +109,7 @@ img {
     display: block;
     align-items: center;
     margin: 0 auto;
-    max-width: 40%;
+    max-width: 45%;
     height: auto;
     margin-bottom: 10px;
 }
