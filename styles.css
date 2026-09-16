@@ -1,7 +1,7 @@
 .logo-container {
     height: 100vh;
     box-sizing: border-box;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,6 +18,23 @@
     line-height: 1;
     
 }
+
+#logo-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+    height: auto;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    color:blueviolet;
+    font-size: 30px;
+}
+
 
 #header1 {
     font-size: 50px;
@@ -51,3 +68,11 @@ video{
     
 }
 
+img {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
